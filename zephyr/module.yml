@@ -1,4 +1,4 @@
-name: adsum
+name: adsum-module-sdk
 build:
   cmake-ext: True
   kconfig-ext: True
