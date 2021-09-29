@@ -1,0 +1,68 @@
+
+config ADSUM_MODULE_ENABLED
+	bool "Adsum Module Enable"
+
+config ADSUM_COMPANY_ID
+	hex "Adsum Comany ID"
+	default 0x05F1 #BT_COMP_ID_LF
+
+config ADSUM_OP_KEEPALIVE_MSG_MAXLEN_MESSAGE 
+ 	int "Adsum KeepAlive Model opcode max message lenght"
+ 	default 2
+config ADSUM_KEEPALIVE_MODEL_ID 
+ 	hex "Adsum KeepAlive Model ID"
+ 	default 0x0000
+config ADSUM_OP_KEEPALIVE_MSG_ID
+	hex "ADSUM_OP_KEEPALIVE_MSG_ID"
+	default 0x00
+config ADSUM_KEEPALIVE_MODEL_PERFNODE_SIGN 
+	int "Adsum KeepAlive Model PerfNode SIGN"
+	default 101
+config ADSUM_KEEPALIVE_MODEL_SIGN 
+	hex "Adsum KeepAlive Model SIGN"
+	default 0x88
+config ADSUM_KEEPALIVE_GROUP_ADDR
+	hex "Adsum Keepalive Model group address"
+	default 0xc000
+config ADSUM_KEEPALIVE_MODEL_PUBLISH_TTL 
+	int "Adsum Keepalive Model publish TTL" 
+	default 0 
+config ADSUM_KEEPALIVE_MODEL_RECEIVED_TTL 
+	int "Adsum Keepalive Model receiced TTL" 
+	default 0 
+config  ADDRS_RSSI_LIST_SIZE  
+	int "Size of the Addresses/RSSIs list"
+	default 50 
+config ADSUM_PERF_GROUP_ADDR
+	hex "Adsum Perfermance Model Group address"
+	default 0xc001
+config ADSUM_OP_PERF_UPDATE_MAXLEN_MESSAGE 
+ 	int "Adsum Perfermance Model opcode max message lenght"
+ 	default	100 
+config ADSUM_PERF_SRV_MODEL_ID 
+ 	hex "Adsum Perfermance Model server model id"
+ 	default 0x0001
+config ADSUM_PERF_SRV_MODEL_SIGN 
+	hex "Adsum Perfermance Model SIGNateur"
+	default 0x79
+config ADSUM_KEEPALIVE_MODEL_PUB_PERIOD_10S_MULTIPLIER
+	int "Adsum Keepalive Model Publication period 10 seconds multiplier"
+	default 2
+config ADSUM_KEEPALIVE_MODEL_PUB_RETRANSMIT_NMBR
+	int "ADSUM_KEEPALIVE_MODEL_PUB_RETRANSMIT_NMBR"
+	default 0
+config ADSUM_KEEPALIVE_MODEL_PUB_RETRANSMIT_INTER 
+	int "ADSUM_KEEPALIVE_MODEL_PUB_RETRANSMIT_INTER"
+	default 0
+config ADSUM_OP_PERF_UPDATE_MSG_ID
+	hex "ADSUM_OP_PERF_UPDATE_MSG_ID"
+	default 0x02
+config ADSUM_PERF_SRV_MODEL_PUB_PERIOD_10S_MULTIPLIER
+	int "ADSUM_PERF_SRV_MODEL_PUB_PERIOD_10S_MULTIPLIER"
+	default 5
+config ADSUM_PERF_SRV_MODEL_PUB_RETRANSMIT_NMBR
+	int "ADSUM_PERF_SRV_MODEL_PUB_RETRANSMIT_NMBR"
+	default 0
+config ADSUM_PERF_SRV_MODEL_PUB_RETRANSMIT_INTER
+int "ADSUM_PERF_SRV_MODEL_PUB_RETRANSMIT_INTER"
+default 0
