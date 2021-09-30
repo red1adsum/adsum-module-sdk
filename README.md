@@ -21,13 +21,7 @@ To start sending your performance data to our APM Cloud, [create Adsum APM cloud
 
 # nRF Connect SDK Integration Guide
 
-This guide provides a walkthrough of the required steps to integrate Adsum SDK lib files into your project using nRF Connect SDK. This integration has been validated against nRF Connect SDK releases ranging
-from vXXX to vYYY
-
-##*Note:*
-
-*This guide assumes that you are using a qualified nRF SoC, check the list of [qualified nRF SoCs](https://adsumnetworks/docs/qualified_SoCs_and_SDK).*
-
+This guide provides a walkthrough of the required steps to integrate Adsum SDK modules into your project. Currently we support nRF52832 and nRF52840 running the latest Zephyr SDK version 2.7.0. We will qualify more SoC models and SDK versions in the future, we encourage you to reach out to your Adsum representative for any request in this regard or send email to support@adsumnetworks.io . 
 
 ## Include Adsum SDK module in the build: 
 
